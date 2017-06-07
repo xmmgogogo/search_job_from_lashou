@@ -65,8 +65,6 @@ function find_position($position_key, $post_data, $php_search_url)
                         $match_content = str_replace('&nbsp;', '', $job_say[1][0]);
                         $job_say = strip_tags($match_content);
 
-                        // print_r($job_say);
-
                         $str .= $job_say;
                         $str .= '--------------------------------------------------------------------------------------------------------------------' . PHP_EOL . PHP_EOL;
                     }
